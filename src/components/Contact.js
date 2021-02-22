@@ -2,11 +2,6 @@ import React from 'react';
 import './Contact.css';
 import PropTypes from 'prop-types';
 
-
-const avatar = "https://randomuser.me/api/portraits/men/0.jpg";
-const name = "Kevin Lynch";
-const isOnline = true;
-
 function Contact(props) {
   return (
     <div className="Contact">
